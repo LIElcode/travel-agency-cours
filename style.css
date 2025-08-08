@@ -1,0 +1,59 @@
+.first-button{
+    color: orange;
+}
+
+.second-button{
+    color: orange
+}
+.third-button{
+    color: orange;
+}
+.fourth-button{
+    color: rgb(14, 106, 255);
+}
+
+.first-h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.first-p{
+    text-align: center;
+}
+
+.second-p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.third-p{
+    color: rgb(14, 106, 255);
+    text-align: center;
+}
+.first-h1{
+    font-size: 80px;
+    text-align: center;
+}
+.second-h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(247, 249, 251);
+}
+span{
+    color: orange;
+}
+footer{
+    background-color: black;
+}
+.first-section{
+    background-color: rgba(100, 100, 100, 0.4);
+}
+.first-span{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(78, 78, 78);
+}
+h2{
+    font-size: 30px;
+}
+
