@@ -1,5 +1,6 @@
 .first-button{
     color: orange;
+    object: position 12px;;
 }
 
 .second-button{
@@ -56,4 +57,5 @@ footer{
 h2{
     font-size: 30px;
 }
+
 
