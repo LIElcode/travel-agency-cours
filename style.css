@@ -1,15 +1,13 @@
-.first-button{
-    color: orange;
-}
 
-.second-button{
-    color: orange
-}
-.third-button{
-    color: orange;
-}
-.fourth-button{
-    color: rgb(14, 106, 255);
+.first-p3 {
+    color: white;
+    border: solid 2px rgb(0, 60, 255);
+    border-radius: 12px;
+    background: rgb(0, 60, 255);
+    width: 29px;
+    text-align: center;
+    margin-top: -21px;
+    margin-right: 14px;
 }
 
 .first-h2{
@@ -31,7 +29,8 @@
     text-align: center;
 }
 .first-h1{
-    font-size: 80px;
+    text-transform: uppercase;
+    font-size: 27px;
     text-align: center;
 }
 .second-h1{
@@ -48,13 +47,53 @@ footer{
 .first-section{
     background-color: rgba(203, 203, 203, 0.4);
 }
-.first-span{
-    font-size: 80px;
-    text-align: center;
-    color: rgb(149, 149, 149);
-}
+
 h2{
     font-size: 30px;
 }
+.first-p1 {
+    color: white;
+    border: solid 2px orange;
+    border-radius: 4px;
+    background: orange;
+    width: 88px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 19px;
+}
+.first-p2 {
+    color: white;
+    border: solid 2px orange;
+    border-radius: 4px;
+    background: orange;
+    width: 88px;
+    text-align: center;
+    margin-left: 4px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 19px;
+}
 
+
+h1.first-h1 {
+    padding-top: 48px;
+    margin-left: 109px;
+}
+
+.first-image{
+    width: auto;
+    height: 149px;
+}
+
+.section-one {
+    background-image: url(images/png-2.webp);
+    height: 270px;
+    width: 1400px;
+    padding-right: 100px;
+}
+.first-span{
+    color: gray;
+}
 
