@@ -1,20 +1,4 @@
 
-.first-p3 {
-    color: white;
-    border: solid 2px rgb(0, 60, 255);
-    border-radius: 12px;
-    background: rgb(0, 60, 255);
-    width: 29px;
-    text-align: center;
-    margin-top: -21px;
-    margin-right: 14px;
-}
-
-.first-h2{
-    font-size: 30px;
-    text-align: center;
-}
-
 .first-p{
     text-align: center;
 }
@@ -26,6 +10,9 @@
 
 .third-p{
     color: rgb(14, 106, 255);
+    text-align: center;
+}
+.premier-h1{
     text-align: center;
 }
 .first-h1{
@@ -48,20 +35,24 @@ footer{
     background-color: rgba(203, 203, 203, 0.4);
 }
 
-h2{
-    font-size: 30px;
+.deus h2{
+    font-size: 22px;
+    text-align: center;
+    border-bottom: solid 2px #12d895;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
-.first-p1 {
+.first-a1 {
     color: white;
     border: solid 2px orange;
     border-radius: 4px;
     background: orange;
     width: 88px;
     text-align: center;
-    margin-left: 700px;
     margin-top: 20px;
     margin-bottom: 35px;
-    margin-right: 19px;
+    /* margin-right: 19px; */
+    margin-left: 172px;
 }
 .first-p2 {
     color: white;
@@ -73,13 +64,13 @@ h2{
     margin-left: 4px;
     margin-top: 20px;
     margin-bottom: 35px;
-    margin-right: 19px;
+    margin-right: 32px;
 }
 
 
 h1.first-h1 {
     padding-top: 48px;
-    margin-left: 109px;
+    margin-left: 5px;
 }
 
 .first-image{
@@ -88,12 +79,45 @@ h1.first-h1 {
 }
 
 .section-one {
-    background-image: url(images/png-2.webp);
-    height: 270px;
-    width: 1400px;
-    padding-right: 100px;
+    background-image: url('images/full-main.png');
+    height: 180px;
+    width: 416px;
 }
 .first-span{
     color: gray;
 }
+.first-p3 {
+    color: white;
+    border: solid 2px rgb(34, 0, 255);
+    border-radius: 13px;
+    background: rgb(34, 0, 255);
+    width: 23px;
+    margin-left: 4px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 19px;
+}
+article{
+    background-image: url("images/full-main.png");
+    border-radius: 10px;
+    height: 180px;
+    width: 416px;
+}
 
+.images-1 {
+    margin-left: 121px;
+}
+h1{
+    text-align: center;
+}
+.overlay{
+    height: 180px;
+    width: 159px;
+    background: rgba(255, 255, 255, 0.7)
+}
+.first-h2{
+    text-align: center;
+}
+.nav-1{
+    display: none;
+}
