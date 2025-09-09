@@ -118,6 +118,23 @@ h1{
 .first-h2{
     text-align: center;
 }
+.deus-h2{
+    font-size: 20px;
+    border-bottom: solid 2px #979191;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
 .nav-1{
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+
+  .nav-1{
+    display: initial;
+}
+.nav-2{
+    display: none;
+}
+}
+
