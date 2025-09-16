@@ -1,46 +1,59 @@
-
-.first-p{
+/*
+partie commune
+*/
+p.first-p{
     text-align: center;
-}
-
-.second-p{
-    color: aliceblue;
-    text-align: center;
-}
-
-.third-p{
-    color: rgb(14, 106, 255);
-    text-align: center;
-}
-.premier-h1{
-    text-align: center;
-}
-.first-h1{
-    text-transform: uppercase;
-    font-size: 27px;
-    text-align: center;
-}
-.second-h1{
-    font-size: 50px;
-    text-align: center;
-    color: rgb(247, 249, 251);
 }
 span{
     color: orange;
 }
-footer{
-    background-color: black;
-}
-.first-section{
-    background-color: rgba(203, 203, 203, 0.4);
-}
-
-.deus h2{
-    font-size: 22px;
+h1{
     text-align: center;
-    border-bottom: solid 2px #12d895;
-    padding-top: 5px;
-    padding-bottom: 20px;
+}
+/*
+header et navs
+*/
+.premier-h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.nav-1{
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+
+.nav-1{
+    display: initial;
+}
+.nav-2{
+    display: none;
+}
+}
+/*
+section one
+*/
+.section-one {
+    background-image: url(images/full-main.png);
+    height: 247px;
+    width: 416px;
+}
+/*
+.first-image{
+    width: auto;
+    height: 149px;
+}
+*/
+h1.first-h1 {
+    padding-top: 48px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 27px;
+    text-align: center;
+}
+.first-span{
+    color: gray;
 }
 .first-a1 {
     color: white;
@@ -53,7 +66,48 @@ footer{
     margin-bottom: 35px;
     margin-left: 172px;
     text-decoration: none;
-    padding: 3px;
+    padding: 7px;
+}
+/*
+section planifier,organiser,voyager
+*/
+.images-1 {
+    margin-left: 132px;
+}
+.first-h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+/*
+section billets de voyage
+*/
+article{
+    background-image: url("images/full-main.png");
+    border-radius: 10px;
+    height: 180px;
+    width: 416px;
+}
+.deus-h2 {
+    font-size: 20px;
+    border-bottom: solid 2px #979191;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 28px auto 10px auto;
+}
+.overlay{
+    height: 180px;
+    width: 159px;
+    background: rgba(255, 255, 255, 0.7)
+}
+.overlay h4 {
+    width: 103px;
+    text-transform: uppercase;
+    border-bottom: solid 2px;
+    padding-bottom: 15px;
+    margin: 20px auto 10px auto;
+    text-align: center;
+    font-size: 14px;
 }
 .first-p2 {
     color: white;
@@ -62,31 +116,23 @@ footer{
     background: orange;
     width: 88px;
     text-align: center;
-    margin-left: 4px;
+    margin-left: 36px;
     margin-top: 20px;
     margin-bottom: 35px;
-    margin-right: 32px;
+    margin-right: 35px;
     text-decoration: none;
+    padding: 3px;
 }
-
-
-h1.first-h1 {
-    padding-top: 48px;
-    margin-left: 5px;
-}
-
-.first-image{
-    width: auto;
-    height: 149px;
-}
-
-.section-one {
-    background-image: url(images/full-main.png);
-    height: 247px;
-    width: 416px;
-}
-.first-span{
-    color: gray;
+/*
+section contact
+*/
+.contact h3 {
+    width: 308px;
+    text-transform: uppercase;
+    border-bottom: solid 2px;
+    padding-bottom: 15px;
+    margin: 28px auto 10px auto;
+    text-align: center;
 }
 .first-p3 {
     color: white;
@@ -99,49 +145,27 @@ h1.first-h1 {
     margin-bottom: 35px;
     margin-right: 19px;
 }
-article{
-    background-image: url("images/full-main.png");
-    border-radius: 10px;
-    height: 180px;
-    width: 416px;
+/*
+footer
+*/
+footer{
+    background-color: black;
 }
-
-.images-1 {
-    margin-left: 132px;
-}
-h1{
+.second-h1{
+    font-size: 50px;
     text-align: center;
+    color: rgb(247, 249, 251);
 }
-.overlay{
-    height: 180px;
-    width: 159px;
-    background: rgba(255, 255, 255, 0.7)
-}
-.first-h2{
+.second-p {
+    color: aliceblue;
     text-align: center;
-    text-transform: uppercase;
+    font-size: small;
+    padding-bottom: 41px;
 }
-.deus-h2{
-    font-size: 20px;
-    border-bottom: solid 2px #979191;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-ul{
-    list-style: none;
-}
-.nav-1{
-    display: none;
-}
+/*
+a utiliser plus tard
 
-@media screen and (min-width: 1024px) {
-
-  .nav-1{
-    display: initial;
+.first-section{
+    background-color: rgba(203, 203, 203, 0.4);
 }
-.nav-2{
-    display: none;
-}
-}
-
-
+*/
